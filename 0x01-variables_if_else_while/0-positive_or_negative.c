@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main -  entry point
+ * main - entry point fun cheks for random numbers
  *
- * Description: fasle or ture vaalidation
+ * Description: fasle or ture validation
  *
- * Return :0 (success)
+ * Return:0 (success)
  */
 int main(void)
 {
