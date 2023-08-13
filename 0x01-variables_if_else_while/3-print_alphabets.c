@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char alpabit[52] = "abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ";
+	char alpabit[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i <= 51;  i++)
