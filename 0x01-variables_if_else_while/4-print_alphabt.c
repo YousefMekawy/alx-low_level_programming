@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-char alpabit[24] = "abcdfghijklmnoprstuvwxyz";
-        int i;
+	char alpabit[24] = "abcdfghijklmnoprstuvwxyz";
+	int i;
 
-        for (i = 0; i <= 23;  i++)
-                putchar(alpabit[i]);
+	for (i = 0; i <= 23;  i++)
+		putchar(alpabit[i]);
 
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
