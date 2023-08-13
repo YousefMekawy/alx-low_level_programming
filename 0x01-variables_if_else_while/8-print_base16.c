@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char hex[16] = "0123456789abcde";
+	char hex[17] = "0123456789abcdef";
 	int i;
 
 	for (i = 0; i < 15; i++)
