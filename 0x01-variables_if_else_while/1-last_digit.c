@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- *main - entry point checks the last digit 
+/**
+ * main - entry point fun cheks for last digit
  *
- * Description: fin checks the last digit
+ * Description: finction for lastdigit
  *
- * Return 0 (success)
- * */
+ * Return:0 (success)
+ */
 int main(void)
 {
 	int n,lastdigit;
