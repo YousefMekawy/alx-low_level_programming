@@ -9,8 +9,8 @@
  */
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
-		_putchar (c + 0);
-	else if (c >= 65 && c <= 90)
-		_putchar (c + 32);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
