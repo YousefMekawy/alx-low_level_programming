@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * reset_to_98 - a function that reset a pointer
  * to 98
