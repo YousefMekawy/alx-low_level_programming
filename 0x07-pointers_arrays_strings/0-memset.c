@@ -8,12 +8,14 @@
  * @n: how many char that the user wantto change
  * Return: pointer(s)
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int k;
+	int k = 0;
 
-	for (k = 0; n > 0; k++; n--;)
+	for (k = 0 ; n > 0; k++)
+	{
 		s[k] = b;
+		n--;
+	}
 	return (s);
 }
