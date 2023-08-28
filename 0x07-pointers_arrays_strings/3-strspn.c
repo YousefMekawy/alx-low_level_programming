@@ -1,18 +1,28 @@
 #include "main.h"
 /**
- * _strchr - the function
+ * _strspn - the function
  * @s: the string
- * @c: the cahrs
- * Return: Always 0 (Success)
+ * @accept:prototype
+ * Return:(0)
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
 	int k = 0;
+	int i;
 
-	for (; s[k] >= '\0'; k++)
+	while (*s)
 	{
-		if (s[k] == c)
-			return (&s[k]);
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+			{
+				k++;
+				break;
+			}
+			else if (accept[i + 1] == '\0')
+				return (k);
+		}
+		s++;
 	}
-	return (0);
+	return (k);
 }
