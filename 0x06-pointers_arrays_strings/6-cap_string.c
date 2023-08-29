@@ -2,8 +2,7 @@
 
 /**
  * cap_string - Cap all words in a strinjg
- * @str: The string 
- *
+ * @str: The string
  * Return: A pointer to the changed string.
  */
 char *cap_string(char *str)
