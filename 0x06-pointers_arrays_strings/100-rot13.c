@@ -3,7 +3,7 @@
 
 /**
  * rot13 - encoders
- * @s: point to s 
+ * @s: point to s
  *
  * Return: *s
  */
